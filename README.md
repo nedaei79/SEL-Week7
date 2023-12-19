@@ -17,9 +17,9 @@
 
 ## بهبود اعداد پوشش آزمون
 
-### بهبود پوشش کلاس‌های PersonServiceImpl و PersonException
+### بهبود پوشش کلاس‌های PersonServiceImpl و PersonException و PersonValidator
 
-برای افزایش پوشش هر دو کلاس برای متد get در کلاس PersonServiceImpl یک تست می‌نویسیم:
+برای افزایش پوشش هر سه کلاس برای متد get در کلاس PersonServiceImpl یک تست می‌نویسیم:
 
 ![image](https://github.com/nedaei79/SEL-Week7/assets/62210316/6838cb7c-a67d-46dd-97d9-3b4011572e0b)
 
@@ -35,6 +35,17 @@
 
 ![image](https://github.com/nedaei79/SEL-Week7/assets/62210316/eeec8283-a51f-4bcf-a86d-6729a8baf1f3)
 
-و اعداد پوشش برای کلاس PersonException از 60 درصد خط‌‌ها به 100 درصد خط‌ها و برای کلاس PersonServiceImpl از 40 درصد متدها به 60 درصد متدها افزایش یافت:
+و اعداد پوشش برای کلاس PersonValidator از 80 درصد متدها به 100 درصد متدها و برای کلاس PersonException از 60 درصد خط‌‌ها به 100 درصد خط‌ها و برای کلاس PersonServiceImpl از 40 درصد متدها به 60 درصد متدها افزایش یافت:
 
 ![image](https://github.com/nedaei79/SEL-Week7/assets/62210316/f31944c4-83f8-4841-b9f3-19ac2508387b)
+
+### بهبود پوشش کلاس‌های Traffic و StreetDirectionFlow
+
+برای افزایش پوشش هر دو کلاس برای بررسی عملکرد متدهای getter و setter در کلاس Traffic یک تست می‌نویسیم:
+
+![image](https://github.com/nedaei79/SEL-Week7/assets/62210316/a1bc5ce7-2036-4f33-872b-4504c9ad3317)
+
+با اجرای تست‌ها می‌بینیم که اعداد پوشش برای کلاس StreetDirectionFlow از 0 درصد خطوط به 100 درصد خطوط و برای کلاس Traffic از 27.3 درصد متدها به 40 درصد متدها افزایش می‌یابد:
+
+![image](https://github.com/nedaei79/SEL-Week7/assets/62210316/33d07df7-6591-44ab-9796-dc51147e62a5)
+
