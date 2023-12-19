@@ -97,4 +97,14 @@ public class PersonServiceTest {
 			.hasMessage(expectedMessage);
 	}
 
+	@Test
+	public void testGet_shouldThrowPersonExceptionWhenPersonNameIsNotValid() {
+		List<String> expectedErrors = Lists.newArrayList("Name is required");
+		String expectedMessage = String.join(";", expectedErrors);
+
+		assertThatThrownBy(() -> service.get(null))
+			.isInstanceOf(PersonException.class)
+			.hasFieldOrPropertyWithValue("errors", expectedErrors)
+			.hasMessage(expectedMessage);
+	}
 }
