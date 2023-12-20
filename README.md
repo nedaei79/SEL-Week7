@@ -49,3 +49,35 @@
 
 ![image](https://github.com/nedaei79/SEL-Week7/assets/62210316/33d07df7-6591-44ab-9796-dc51147e62a5)
 
+
+### بهبود پوشش کلاس Footpassenger
+
+برای افزایش پوشش کلاس Footpassenger، برای متدهای setter و getter متناظر با CrossedTheCrosswalk تست می‌نویسیم:
+
+![image](https://github.com/nedaei79/SEL-Week7/assets/62210316/8ecdac25-d268-4ee6-953d-5dc999850d05)
+
+
+با اجرای تست‌ها می‌بینیم که اعداد پوشش برای کلاس Footpassengeer از 81.8 درصد متدها به 100 درصد متدها افزایش می‌یابد:
+
+![image](https://github.com/nedaei79/SEL-Week7/assets/62210316/476be634-33db-4c59-aff2-038ac7ee430c)
+
+
+### بهبود پوشش کلاس Person
+
+برای افزایش پوشش کلاس Person، برای متدهای setter و getter متناظر با Age تست می‌نویسیم:
+
+![image](https://github.com/nedaei79/SEL-Week7/assets/62210316/97d890c0-b8d8-4fd3-9bc0-2a73da6617b9)
+
+با اجرای تست‌ها می‌بینیم که اعداد پوشش برای کلاس Person از 85.7 درصد متدها به 100 درصد متدها افزایش می‌یابد:
+
+![image](https://github.com/nedaei79/SEL-Week7/assets/62210316/4b18217c-1948-4211-bbbe-5b5d1c0ec15f)
+
+### بهبود پوشش کلاس PersonRepository
+
+از آنجایی که از PersonRepository تنها در PersonServiceImpl استفاده شده است و در آنجا هم Instance استفاده شده new نشده و null است، برای افزایش پوشش کلاس PersonRepository، برای متد get یک تست می‌نویسیم:
+
+![image](https://github.com/nedaei79/SEL-Week7/assets/62210316/cef4e2f4-41ef-4221-9184-a821baa8491c)
+
+با اجرای تست‌ها می‌بینیم که اعداد پوشش برای کلاس PersonRepository از 0 درصد متدها به 25 درصد متدها افزایش می‌یابد:
+
+![image](https://github.com/nedaei79/SEL-Week7/assets/62210316/4a28a52b-5d19-4ea7-90d1-b94ca9ae4a27)
